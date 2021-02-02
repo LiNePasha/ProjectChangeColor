@@ -1,0 +1,94 @@
+/*=========================
+    Title : Todo List!
+    Owner : Noor Bahar!
+===========================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+--bodyBg: #ccc;
+--headerBg:  rgba(0, 0, 255, 0.623);
+--wordColor: #000;
+}
+
+body {
+  background: var(--bodyBg);
+}
+
+.a_right h4,
+.a_right p,
+.a_left h4,
+header  {
+  color: var(--wordColor);
+}
+
+header {
+  width: 100%;
+  height: 3rem;
+  background: var(--headerBg);
+  padding: 8px;
+  text-align: center;
+  position: relative;
+}
+
+header p {
+  position: absolute;
+  right: 1rem; 
+  font-weight: bold;
+}
+
+section {
+  width: 100%;
+}
+
+section .a_left {
+  text-align: center;
+  border-right: 1px solid var(--wordColor);
+  height: 88vh;
+}
+
+section .a_left #input {
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+section .a_left button {
+  padding: 5px 20px 5px 20px;
+  background: #ffc75f;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+section .a_left ul {
+  list-style: none;
+  background: green;
+  text-align: left;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px 5px 10px 5px;
+  color: #f7f7f7;  
+}
+
+section .a_left ul li {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
